@@ -1,5 +1,6 @@
 removed_sources:
   Compress-Raw-Lzma-2.049.tar.gz: ae9082be473f0c3641d45c5ac3f6227db1959ce7
   Compress-Raw-Lzma-2.061.tar.gz: 5d1401b3c51570b1f08172767ac8b17d91b353aa
-sources:
   Compress-Raw-Lzma-2.062.tar.gz: c4ed6300afc5789dceba518f367e26a75685bfba
+sources:
+  Compress-Raw-Lzma-2.063.tar.gz: c05528816e340c2d7e005e73006eea83d55ac5ad

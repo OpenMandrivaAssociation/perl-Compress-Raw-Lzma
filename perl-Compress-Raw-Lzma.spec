@@ -1,5 +1,5 @@
 %define	upstream_name		Compress-Raw-Lzma
-%define upstream_version 2.062
+%define upstream_version 2.063
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -9,7 +9,7 @@ Summary:	Low-Level Interface to the liblzma compression library
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}/
-Source0:	http://www.cpan.org/authors/id/P/PM/PMQS/Compress-Raw-Lzma-%{upstream_version}.tar.gz
+Source0:	http://search.cpan.org/CPAN/authors/id/P/PM/PMQS/Compress-Raw-Lzma-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	pkgconfig(liblzma)
@@ -46,5 +46,6 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Mon Mar 13 2012 Per Øyvind Karlsen <pkarlsen@mandriva.com> 2.49.0-1
 - initial release
+
 
 
