@@ -1,5 +1,5 @@
 %define	upstream_name		Compress-Raw-Lzma
-%define upstream_version 2.063
+%define upstream_version 2.064
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -46,6 +46,7 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Mon Mar 13 2012 Per Øyvind Karlsen <pkarlsen@mandriva.com> 2.49.0-1
 - initial release
+
 
 
 
