@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	1
+Release:	2
 
 Summary:	Low-Level Interface to the liblzma compression library
 License:	GPL+ or Artistic
@@ -35,18 +35,3 @@ perl Makefile.PL INSTALLDIRS=vendor
 %{_mandir}/*/*
 %{perl_vendorarch}/Compress
 %{perl_vendorarch}/auto/Compress
-
-
-
-%changelog
-* Tue Mar 13 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 2.49.0-1
-+ Revision: 784856
-- imported package perl-Compress-Raw-Lzma
-
-
-* Mon Mar 13 2012 Per Øyvind Karlsen <pkarlsen@mandriva.com> 2.49.0-1
-- initial release
-
-
-
-
