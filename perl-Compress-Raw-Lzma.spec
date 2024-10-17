@@ -8,7 +8,7 @@ Release:	1
 Summary:	Low-Level Interface to the liblzma compression library
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}/
+Url:		https://search.cpan.org/dist/%{upstream_name}/
 Source0:	http://search.cpan.org/CPAN/authors/id/P/PM/PMQS/Compress-Raw-Lzma-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
